@@ -1,14 +1,15 @@
 
 .menu-item {
   min-width: 30%;
-  height: 240px;
+  height: 270px;
   flex: 1 1 auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid black;
-  margin: 0 7.5px 15px;
+  // border: 1px solid black;
+  margin: 0 7px 10px;
   overflow: hidden;
+  border-radius: 5px;
   
   &:hover {
     cursor: pointer;
@@ -19,12 +20,12 @@
     }
 
     & .content {
-      opacity: 0.9;
+      opacity: 0.8;
     }
   }
 
   &.large {
-    height: 380px;
+    height: 390px;
   }
 
 
